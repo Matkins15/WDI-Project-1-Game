@@ -10,8 +10,9 @@
    background-color: grey;
    margin: 4px;
    text-align: center;
-   justify-content: center;
    text: #ffffff;
+   text-transform: capitalize;
+   font-weight: bold;
 }
 .col-xs-20 {
    width: 20%;
