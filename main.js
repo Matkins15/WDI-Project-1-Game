@@ -1,4 +1,5 @@
-
-$( ".tiles" ).click(function() {
-  alert( "Handler for .click() called." );
+$(document).ready(function() {
+  $(".tiles").click(function(){
+  alert("This function is working");
+  });
 });
