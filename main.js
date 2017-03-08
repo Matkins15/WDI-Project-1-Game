@@ -1,6 +1,10 @@
 var score = 0;
+function refreshScore(){
+  $('.ticker').html(score);
+}
 
 $('.tiles').on('click',"#oneRone", function($event){
+  refreshScore();
   var response = prompt("This portugese soccer player won his fourth Ballon D'Or trophy in 2016?\n\n A. who is Cristiano Ronaldo\n B. who is Lionel Messi\n C. who is Neymar da Silva Santos Júnior\n D. who is Luka Modric");
   var answer = 'A'||'a';
   if(answer === response){
@@ -11,12 +15,16 @@ $('.tiles').on('click',"#oneRone", function($event){
     alert("Sorry, that is not the right answer.");
   }
 });
+
+
 $('.tiles').on('click',"#twoRone", function($event){
   var response = prompt('It takes this amount of players to field a soccer team?\n\n A. what is 10\n B. what is 9\n C. what is 11\n D. what is 12');
   var answer = 'C'||'c';
   if(answer === response){
+    score += parseInt(200);
     alert('CORRECT!');
   } else {
+    score -= parseInt(200);
     alert("Sorry, that is not the right answer.");
   }
 });
@@ -142,7 +150,16 @@ $('.tiles').on('click',"#fiveRthree", function($event){
 });
 
 
-$('.tiles').on('click',"#fiveRthree", function($event){
+$('.tiles').on('click',"#oneRfour", function($event){
+  var response = prompt('This shark, also known as the white pointer, white shark, or white death? \n\n A. what is the Great White Shark\n B. what is the Tiger shark\n C. what is a Sperm Whale Shark\n D. what is a Hammer Shark');
+  var answer = 'A'||'a';
+  if(answer === response){
+    alert('CORRECT!');
+  } else {
+    alert("Sorry, that is not the right answer.");
+  }
+});
+$('.tiles').on('click',"#twoRfour", function($event){
   var response = prompt('This male cat is know as the King of the Jungle? \n\n A. what is a Lion\n B. wha is a Tiger\n C. what is Leopard\n D. what is a Cheetah');
   var answer = 'A'||'a';
   if(answer === response){
@@ -151,8 +168,46 @@ $('.tiles').on('click',"#fiveRthree", function($event){
     alert("Sorry, that is not the right answer.");
   }
 });
-$('.tiles').on('click',"#fiveRthree", function($event){
-  var response = prompt('A man who after escaping slavery became a leader of the abolitionist movement through his orations and writings, including a narrative he wrote of his own life in slavery? \n\n A. who is Kunta Kinte\n B. who is George Washington Carver\n C. who is Fredrick Douglas\n D. who is Nat Turner');
+$('.tiles').on('click',"#threeRfour", function($event){
+  var response = prompt('This animal is the tallest living terrestrial animals and the largest ruminants? \n\n A. what is a Blue Whale\n B. what is a Giraffe\n C. what is a Bush Elephant\n D. what is a Elephant Seal');
+  var answer = 'B'||'b';
+  if(answer === response){
+    alert('CORRECT!');
+  } else {
+    alert("Sorry, that is not the right answer.");
+  }
+});
+$('.tiles').on('click',"#fourRfour", function($event){
+  var response = prompt('This American bear is less commonly known as the Silvertip Bear? \n\n A. what is a Black Bear\n B. what is a Brown Bear\n C. what is a Polar Bear\n D. what is a Grizzley Bear');
+  var answer = 'A'||'a';
+  if(answer === response){
+    alert('CORRECT!');
+  } else {
+    alert("Sorry, that is not the right answer.");
+  }
+});
+$('.tiles').on('click',"#fiveRfour", function($event){
+  var response = prompt('These animals are large mammals of the family Elephantidae? \n\n A. what are Rhinos\n B. what are Elephants\n C. what are Giraffes\n D. what are Bears');
+  var answer = 'B'||'b';
+  if(answer === response){
+    alert('CORRECT!');
+  } else {
+    alert("Sorry, that is not the right answer.");
+  }
+});
+
+
+$('.tiles').on('click',"#oneRfive", function($event){
+  var response = prompt('This Levantine and Egyptian food dip or spread is made from cooked, mashed chickpeas or other beans, blended with tahini, olive oil, lemon juice, salt and garlic? \n\n A. what is mashed beans\n B. what is Hummus\n C. what is Baba Ganoush\n D. what is Bean Dip');
+  var answer = 'B'||'b';
+  if(answer === response){
+    alert('CORRECT!');
+  } else {
+    alert("Sorry, that is not the right answer.");
+  }
+});
+$('.tiles').on('click',"#twoRtwo", function($event){
+  var response = prompt('This dish is a yeasted flatbread generally topped with tomato sauce and cheese and baked in an oven? \n\n A. what are pancakes\n B. what are waffles\n C. what is Pizza\n D. what is a Baked Potato');
   var answer = 'C'||'c';
   if(answer === response){
     alert('CORRECT!');
@@ -160,27 +215,27 @@ $('.tiles').on('click',"#fiveRthree", function($event){
     alert("Sorry, that is not the right answer.");
   }
 });
-$('.tiles').on('click',"#fiveRthree", function($event){
-  var response = prompt('A man who after escaping slavery became a leader of the abolitionist movement through his orations and writings, including a narrative he wrote of his own life in slavery? \n\n A. who is Kunta Kinte\n B. who is George Washington Carver\n C. who is Fredrick Douglas\n D. who is Nat Turner');
-  var answer = 'C'||'c';
+$('.tiles').on('click',"#threeRfive", function($event){
+  var response = prompt('This snack food dish fromnorthern Mexico is composed of chips and melted cheese, and is often served as a snack? \n\n A. what are Nachos\n B. what are Epinadas\n C. what is a Chupalla\n D. what is a Taco');
+  var answer = 'A'||'a';
   if(answer === response){
     alert('CORRECT!');
   } else {
     alert("Sorry, that is not the right answer.");
   }
 });
-$('.tiles').on('click',"#fiveRthree", function($event){
-  var response = prompt('A man who after escaping slavery became a leader of the abolitionist movement through his orations and writings, including a narrative he wrote of his own life in slavery? \n\n A. who is Kunta Kinte\n B. who is George Washington Carver\n C. who is Fredrick Douglas\n D. who is Nat Turner');
-  var answer = 'C'||'c';
+$('.tiles').on('click',"#fourRfive", function($event){
+  var response = prompt('This U.S. favorie is a meat generally sliced perpendicular to the muscle fibers, potentially including a bone? \n\n A. what is Chicken\n B. what is Ham\n C. what is Lamb\n D. what is Steak');
+  var answer = 'D'||'d';
   if(answer === response){
     alert('CORRECT!');
   } else {
     alert("Sorry, that is not the right answer.");
   }
 });
-$('.tiles').on('click',"#fiveRthree", function($event){
-  var response = prompt('A man who after escaping slavery became a leader of the abolitionist movement through his orations and writings, including a narrative he wrote of his own life in slavery? \n\n A. who is Kunta Kinte\n B. who is George Washington Carver\n C. who is Fredrick Douglas\n D. who is Nat Turner');
-  var answer = 'C'||'c';
+$('.tiles').on('click',"#fiveRfive", function($event){
+  var response = prompt('What country is known for creating the French Fry? \n\n A. what is France\n B. what is Germany\n C. what is England\n D. what is Belgium');
+  var answer = 'D'||'d';
   if(answer === response){
     alert('CORRECT!');
   } else {
