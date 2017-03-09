@@ -452,7 +452,7 @@ $('.tiles').on('click',"#fiveRfive", function($event){
   }
   $('#fiveRfive').on('click',function() {
       $(this).prop("disabled",true);
-      $(this).css("background-color", "black");
+      
   });
   refreshScore();
 });

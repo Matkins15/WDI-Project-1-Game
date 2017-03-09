@@ -19,22 +19,43 @@ h1 {
 }
 
 #triangle_down {
-    width: 400px;
-    height: 100px;
-    border-top: 500px solid #000000;
-    border-left: 500px solid #ffffff;
-    border-right: 500px solid #ffffff ;
-    align-items: center;
-    position: absolute;
-    left: 110px;
-    top: 20px;
-    z-index: -12;
-    margin-top: 100px;
-
+  width: 400px;
+  height: 100px;
+  border-top: 500px solid #000000;
+  border-left: 500px solid #ffffff;
+  border-right: 500px solid #ffffff ;
+  align-items: center;
+  position: absolute;
+  left: 110px;
+  top: 20px;
+  z-index: -12;
+  margin-top: 100px;
 }
 
-.col-md-20
-{
+form {
+  width: 100%;
+  text-align: center;
+}
+
+ .btn-primary {
+  position: relative;
+  align-items: center;
+  z-index: 1;
+  /*margin-left: 525px;
+  margin-top: -20px;*/
+  background-color: black;
+  border-color: white;
+  text-transform: uppercase;
+  color: #bbb308;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #949494;
+  border-color: inherit;
+}
+
+.col-md-20 {
    position: relative;
    display: inline-block;
    min-height: 1px;
@@ -50,8 +71,6 @@ h1 {
    font-size: 20px;
    font-family: 'Righteous', cursive;
    letter-spacing: .05em;
-
-
 }
 
 .categories .btn, .categories .btn:hover {
@@ -76,6 +95,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 10px;
     color: #bbb308;
+    padding-top: 10px;
 }
 
 .categories {
@@ -91,3 +111,10 @@ h1 {
   text-transform: capitalize;
   font-weight: bold;
   margin-left: 0px;
+}
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+}
