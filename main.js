@@ -5,7 +5,8 @@ function refreshScore(){
 
 $('.tiles').on('click',"#oneRone", function($event){
   var response = prompt("This portugese soccer player won his fourth Ballon D'Or trophy in 2016?\n\n A. who is Cristiano Ronaldo\n B. who is Lionel Messi\n C. who is Neymar da Silva Santos Júnior\n D. who is Luka Modric");
-  var answer = 'A'||'a';
+  response = response.toUpperCase();
+  var answer = 'A';
   if(answer === response){
     score += parseInt(100);
     alert('CORRECT!');
@@ -13,6 +14,9 @@ $('.tiles').on('click',"#oneRone", function($event){
     score -= parseInt(100);
     alert("Sorry, that's incorrect");
   }
+  $('#oneRone').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -27,6 +31,9 @@ $('.tiles').on('click',"#twoRone", function($event){
     score -= parseInt(200);
     alert("Sorry, that's incorrect");
   }
+  $('#twoRone').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -40,6 +47,9 @@ $('.tiles').on('click',"#threeRone", function($event){
     score -= parseInt(300);
     alert("Sorry, that's incorrect");
   }
+  $('#threeRone').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -53,6 +63,9 @@ $('.tiles').on('click',"#fourRone", function($event){
     score -= parseInt(400);
     alert("Sorry, that's incorrect");
   }
+  $('#fourRone').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -66,6 +79,9 @@ $('.tiles').on('click',"#fiveRone", function($event){
       score -= parseInt(500);
     alert("Sorry, that's incorrect");
   }
+  $('#fiveRone').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -79,6 +95,9 @@ $('.tiles').on('click',"#oneRtwo", function($event){
     score -= parseInt(100);
     alert("Sorry, that's incorrect");
   }
+  $('#oneRtwo').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 $('.tiles').on('click',"#twoRtwo", function($event){
@@ -92,6 +111,9 @@ $('.tiles').on('click',"#twoRtwo", function($event){
     score -= parseInt(200);
     alert("Sorry, that's incorrect");
   }
+  $('#twoRtwo').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -106,6 +128,9 @@ $('.tiles').on('click',"#threeRtwo", function($event){
     score -= parseInt(300);
     alert("Sorry, that's incorrect");
   }
+  $('#threeRtwo').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -119,6 +144,9 @@ $('.tiles').on('click',"#fourRtwo", function($event){
     score -= parseInt(400);
     alert("Sorry, that's incorrect");
   }
+  $('#fourRtwo').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -132,6 +160,9 @@ $('.tiles').on('click',"#fiveRtwo", function($event){
     score -= parseInt(500);
     alert("Sorry, that's incorrect");
   }
+  $('#fiveRtwo').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -146,6 +177,9 @@ $('.tiles').on('click',"#oneRthree", function($event){
     score -= parseInt(100);
     alert("Sorry, that's incorrect");
   }
+  $('#oneRthree').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -159,6 +193,9 @@ $('.tiles').on('click',"#twoRthree", function($event){
     score -= parseInt(200);
     alert("Sorry, that's incorrect");
 }
+$('#twoRthree').on('click',function() {
+    $(this).prop("disabled",true);
+});
   refreshScore();
 });
 
@@ -172,6 +209,9 @@ $('.tiles').on('click',"#threeRthree", function($event){
     score -= parseInt(300);
     alert("Sorry, that's incorrect");
   }
+  $('#threeRthree').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -185,6 +225,9 @@ $('.tiles').on('click',"#fourRthree", function($event){
     score -= parseInt(400);
     alert("Sorry, that's incorrect");
   }
+  $('#fourRthree').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -198,13 +241,18 @@ $('.tiles').on('click',"#fiveRthree", function($event){
     score -= parseInt(500);
     alert("Sorry, that's incorrect");
   }
+  $('#fiveRthree').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
 
 $('.tiles').on('click',"#oneRfour", function($event){
   var response = prompt('This shark, also known as the white pointer, white shark, or white death? \n\n A. what is the Great White Shark\n B. what is the Tiger shark\n C. what is a Sperm Whale Shark\n D. what is a Hammer Shark');
-  var answer = 'A'||'a';
+  // var answer = 'A'||'a';
+  response = response.toUpperCase();
+  var answer = 'A';
   if(answer === response){
     score += parseInt(100);
     alert('CORRECT!');
@@ -212,6 +260,9 @@ $('.tiles').on('click',"#oneRfour", function($event){
     score -= parseInt(100);
     alert("Sorry, that's incorrect");
   }
+  $('#oneRfour').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -225,6 +276,9 @@ $('.tiles').on('click',"#twoRfour", function($event){
     score -= parseInt(200);
     alert("Sorry, that's incorrect");
   }
+  $('#twoRfour').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -238,6 +292,9 @@ $('.tiles').on('click',"#threeRfour", function($event){
     score -= parseInt(300);
     alert("Sorry, that's incorrect");
   }
+  $('#threeRfour').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -251,6 +308,9 @@ $('.tiles').on('click',"#fourRfour", function($event){
     score -= parseInt(400);
     alert("Sorry, that's incorrect");
   }
+  $('#fourRfour').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -264,6 +324,9 @@ $('.tiles').on('click',"#fiveRfour", function($event){
     score -= parseInt(500);
     alert("Sorry, that's incorrect");
   }
+  $('#fiveRfour').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -278,6 +341,9 @@ $('.tiles').on('click',"#oneRfive", function($event){
     score -= parseInt(100);
     alert("Sorry, that's incorrect");
   }
+  $('#oneRfive').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 $('.tiles').on('click',"#twoRtwo", function($event){
@@ -290,6 +356,9 @@ $('.tiles').on('click',"#twoRtwo", function($event){
     score -= parseInt(200);
     alert("Sorry, that's incorrect");
   }
+  $('#twoRfive').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -303,6 +372,9 @@ $('.tiles').on('click',"#threeRfive", function($event){
     score -= parseInt(300);
     alert("Sorry, that's incorrect");
   }
+  $('#threeRfive').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -316,6 +388,9 @@ $('.tiles').on('click',"#fourRfive", function($event){
     score -= parseInt(400);
     alert("Sorry, that's incorrect");
   }
+  $('#fourRfive').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
 
@@ -329,5 +404,8 @@ $('.tiles').on('click',"#fiveRfive", function($event){
     score -= parseInt(500);
     alert("Sorry, that's incorrect");
   }
+  $('#fiveRfive').on('click',function() {
+      $(this).prop("disabled",true);
+  });
   refreshScore();
 });
