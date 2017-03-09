@@ -16,6 +16,7 @@ $('.tiles').on('click',"#oneRone", function($event){
   }
   $('#oneRone').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "color", "black");
   });
   refreshScore();
 });
@@ -34,6 +35,7 @@ $('.tiles').on('click',"#twoRone", function($event){
   }
   $('#twoRone').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -51,6 +53,7 @@ $('.tiles').on('click',"#threeRone", function($event){
   }
   $('#threeRone').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -68,6 +71,7 @@ $('.tiles').on('click',"#fourRone", function($event){
   }
   $('#fourRone').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -85,6 +89,7 @@ $('.tiles').on('click',"#fiveRone", function($event){
   }
   $('#fiveRone').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -102,6 +107,7 @@ $('.tiles').on('click',"#oneRtwo", function($event){
   }
   $('#oneRtwo').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -119,13 +125,14 @@ $('.tiles').on('click',"#twoRtwo", function($event){
   }
   $('#twoRtwo').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 $('.tiles').on('click',"#threeRtwo", function($event){
   refreshScore();
-  var response = prompt('This singer, actor, comedian and producer starred in the movie "Ray"?\n\n A. who is Morgan Freeman\n  B. who is Jamie Foxx\n C. who is Michael Jordan\n D. who is Samuel L Jackson');
+  var response = prompt('This singer, actor, comedian and producer starred in the movie "Ray"?\n\n A. who is Morgan Freeman\n B. who is Jamie Foxx\n C. who is Michael Jordan\n D. who is Samuel L Jackson');
   response = response.toUpperCase();
   var answer = 'B';
   if(answer === response){
@@ -137,12 +144,13 @@ $('.tiles').on('click',"#threeRtwo", function($event){
   }
   $('#threeRtwo').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 $('.tiles').on('click',"#fourRtwo", function($event){
-  var response = prompt('This actor was the original voice of Darth Vader?\n\n A. who is Morgan Freeman\n B. who is James Earl Jones C. who is Kevin Hart\n D. who is Matthew Atkins');
+  var response = prompt('This actor was the original voice of Darth Vader?\n\n A. who is Morgan Freeman\n B. who is James Earl Jones\n C. who is Kevin Hart\n D. who is Matthew Atkins');
   response = response.toUpperCase();
   var answer = 'B';
   if(answer === response){
@@ -154,6 +162,7 @@ $('.tiles').on('click',"#fourRtwo", function($event){
   }
   $('#fourRtwo').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -171,6 +180,7 @@ $('.tiles').on('click',"#fiveRtwo", function($event){
   }
   $('#fiveRtwo').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -189,6 +199,7 @@ $('.tiles').on('click',"#oneRthree", function($event){
   }
   $('#oneRthree').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -206,12 +217,13 @@ $('.tiles').on('click',"#twoRthree", function($event){
 }
 $('#twoRthree').on('click',function() {
     $(this).prop("disabled",true);
+    $(this).css("background-color", "black");
 });
   refreshScore();
 });
 
 $('.tiles').on('click',"#threeRthree", function($event){
-  var response = prompt('This Atlanta native was known for being the leader of the Civil Rights Movement?\n\n A. who is Andre 3000\n B. who is Dwight Howard C. who is Big Boi \n D. who is Martin Luther King Jr.');
+  var response = prompt('This Atlanta native was known for being the leader of the Civil Rights Movement?\n\n A. who is Andre 3000\n B. who is Dwight Howard\n C. who is Big Boi\n D. who is Martin Luther King Jr.');
   response = response.toUpperCase();
   var answer = 'D';
   if(answer === response){
@@ -223,12 +235,13 @@ $('.tiles').on('click',"#threeRthree", function($event){
   }
   $('#threeRthree').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 $('.tiles').on('click',"#fourRthree", function($event){
-  var response = prompt('This President was the first to wear a full beard while in office?\n\n A. who is Franklin D. Roosevelt\n B. who is Ulysses S. Grant\n C. who is George Bush\n D. who is Abraham Lincoln');
+  var response = prompt('This President was the first to wear a full beard while in office?\n\n A. who is Franklin D. Roosevelt\n B. who is Ulysses S. Grant\nC. who is George Bush\n D. who is Abraham Lincoln');
   response = response.toUpperCase();
   var answer = 'D';
   if(answer === response){
@@ -240,12 +253,13 @@ $('.tiles').on('click',"#fourRthree", function($event){
   }
   $('#fourRthree').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 $('.tiles').on('click',"#fiveRthree", function($event){
-  var response = prompt('A man who after escaping slavery became a leader of the abolitionist movement through his orations and writings, including a narrative he wrote of his own life in slavery? \n\n A. who is Kunta Kinte\n B. who is George Washington Carver\n C. who is Fredrick Douglas\n D. who is Nat Turner');
+  var response = prompt('A man who after escaping slavery became a leader of the abolitionist movement through his orations and writings, including a narrative he wrote of his own life in slavery? \n\n A. who is Kunta Kinte\nB. who is George Washington Carver\nC. who is Fredrick Douglas\nD. who is Nat Turner');
   response = response.toUpperCase();
   var answer = 'C';
   if(answer === response){
@@ -257,13 +271,14 @@ $('.tiles').on('click',"#fiveRthree", function($event){
   }
   $('#fiveRthree').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 
 $('.tiles').on('click',"#oneRfour", function($event){
-  var response = prompt('This shark, also known as the white pointer, white shark, or white death? \n\n A. what is the Great White Shark\n B. what is the Tiger shark\n C. what is a Sperm Whale Shark\n D. what is a Hammer Shark');
+  var response = prompt('This shark, also known as the white pointer, white shark, or white death?\n\n A. what is the Great White Shark\n B. what is the Tiger shark\n C. what is a Sperm Whale Shark\n D. what is a Hammer Shark');
   response = response.toUpperCase();
   var answer = 'A';
   if(answer === response){
@@ -275,12 +290,13 @@ $('.tiles').on('click',"#oneRfour", function($event){
   }
   $('#oneRfour').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 $('.tiles').on('click',"#twoRfour", function($event){
-  var response = prompt('This male cat is know as the King of the Jungle? \n\n A. what is a Lion\n B. wha is a Tiger\n C. what is Leopard\n D. what is a Cheetah');
+  var response = prompt('This male cat is know as the King of the Jungle?\n\n A. what is a Lion\n B. wha is a Tiger\n C. what is Leopard\n D. what is a Cheetah');
   response = response.toUpperCase();
   var answer = 'A';
   if(answer === response){
@@ -292,12 +308,13 @@ $('.tiles').on('click',"#twoRfour", function($event){
   }
   $('#twoRfour').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 $('.tiles').on('click',"#threeRfour", function($event){
-  var response = prompt('This animal is the tallest living terrestrial animals and the largest ruminants? \n\n A. what is a Blue Whale\n B. what is a Giraffe\n C. what is a Bush Elephant\n D. what is a Elephant Seal');
+  var response = prompt('This animal is the tallest living terrestrial animals and the largest ruminants?\n\n A. what is a Blue Whale\n B. what is a Giraffe\n C. what is a Bush Elephant\n D. what is a Elephant Seal');
   response = response.toUpperCase();
   var answer = 'B';
   if(answer === response){
@@ -309,14 +326,15 @@ $('.tiles').on('click',"#threeRfour", function($event){
   }
   $('#threeRfour').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 $('.tiles').on('click',"#fourRfour", function($event){
-  var response = prompt('This American bear is less commonly known as the Silvertip Bear? \n\n A. what is a Black Bear\n B. what is a Brown Bear\n C. what is a Polar Bear\n D. what is a Grizzley Bear');
+  var response = prompt('This American bear is less commonly known as the Silvertip Bear?\n\nA. what is a Black Bear\n B. what is a Brown Bear\n C. what is a Polar Bear\n D. what is a Grizzley Bear');
   response = response.toUpperCase();
-  var answer = 'A';
+  var answer = 'D';
   if(answer === response){
     score += parseInt(400);
     alert('CORRECT!');
@@ -326,12 +344,13 @@ $('.tiles').on('click',"#fourRfour", function($event){
   }
   $('#fourRfour').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 $('.tiles').on('click',"#fiveRfour", function($event){
-  var response = prompt('These animals are large mammals of the family Elephantidae? \n\n A. what are Rhinos\n B. what are Elephants\n C. what are Giraffes\n D. what are Bears');
+  var response = prompt('These animals are large mammals of the family Elephantidae?\n\n A. what are Rhinos\n B. what are Elephants\n C. what are Giraffes\n D. what are Bears');
   response = response.toUpperCase();
   var answer = 'B';
   if(answer === response){
@@ -343,13 +362,14 @@ $('.tiles').on('click',"#fiveRfour", function($event){
   }
   $('#fiveRfour').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
 
 
 $('.tiles').on('click',"#oneRfive", function($event){
-  var response = prompt('This Levantine and Egyptian food dip or spread is made from cooked, mashed chickpeas or other beans, blended with tahini, olive oil, lemon juice, salt and garlic? \n\n A. what is mashed beans\n B. what is Hummus\n C. what is Baba Ganoush\n D. what is Bean Dip');
+  var response = prompt('This Levantine and Egyptian food dip or spread is made from cooked, mashed chickpeas or other beans, blended with tahini, olive oil, lemon juice, salt and garlic? \n\nA. what is mashed beans\n B. what is Hummus\n C. what is Baba Ganoush\nD. what is Bean Dip');
   response = response.toUpperCase();
   var answer = 'B';
   if(answer === response){
@@ -361,6 +381,7 @@ $('.tiles').on('click',"#oneRfive", function($event){
   }
   $('#oneRfive').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -377,6 +398,7 @@ $('.tiles').on('click',"#twoRfive", function($event){
   }
   $('#twoRfive').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -394,6 +416,7 @@ $('.tiles').on('click',"#threeRfive", function($event){
   }
   $('#threeRfive').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -411,6 +434,7 @@ $('.tiles').on('click',"#fourRfive", function($event){
   }
   $('#fourRfive').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
@@ -428,6 +452,7 @@ $('.tiles').on('click',"#fiveRfive", function($event){
   }
   $('#fiveRfive').on('click',function() {
       $(this).prop("disabled",true);
+      $(this).css("background-color", "black");
   });
   refreshScore();
 });
