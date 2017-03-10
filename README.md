@@ -13,3 +13,17 @@ Jeopardy - the classic quiz game show with an old school feel. This single playe
 [Game Board](https://github.com/Matkins15/WDI-Project-1-Game/blob/master/images/wireframe%20image_one.jpg)
 
 [Question/ Answers](https://github.com/Matkins15/WDI-Project-1-Game/blob/master/images/wireframe%20image_two.jpg)
+
+## Technologies
+* Languages - HTML, CSS, Javascript, JQuery
+* Design - Google Fonts
+* Bootsrap
+* w3 Schools CSS
+* Atom
+* Trello
+
+## Future Developments
+* add the a second player and an additional score board
+* replace alert pop up with custom modal with radio buttons
+* add funtion that will disable a button immediately after score updates
+* add a jingle and game show sounds  
