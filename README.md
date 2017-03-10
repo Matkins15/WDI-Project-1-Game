@@ -8,3 +8,8 @@ Jeopardy - the classic quiz game show with an old school feel. This single playe
 
 ## Trello Board
 [Jeopardy Trello Board](https://trello.com/b/jopXfww9/project-1-game)
+
+## Wireframe Images 
+[Game Board](https://github.com/Matkins15/WDI-Project-1-Game/blob/master/images/wireframe%20image_one.jpg)
+
+[Question/ Answers](https://github.com/Matkins15/WDI-Project-1-Game/blob/master/images/wireframe%20image_two.jpg)
