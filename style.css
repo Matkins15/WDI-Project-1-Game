@@ -1,120 +1,121 @@
 body {
-  background-color: white;
+	background-color: white;
 }
 
 h1 {
-  text-align: center;
-  font-family: 'Righteous', cursive;
-  font-size: 48px;
-  text-align: center;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	font-size: 48px;
+	text-align: center;
 }
 
 .row {
-  color: white;
-  background-color: black;
-  align-items: center;
-  padding: : 10px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+	color: white;
+	background-color: black;
+	align-items: center;
+	padding: : 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #triangle_down {
-  width: 400px;
-  height: 100px;
-  border-top: 500px solid #000000;
-  border-left: 500px solid #ffffff;
-  border-right: 500px solid #ffffff ;
-  align-items: center;
-  position: absolute;
-  left: 110px;
-  top: 20px;
-  z-index: -12;
-  margin-top: 100px;
+	width: 400px;
+	height: 100px;
+	border-top: 500px solid #000000;
+	border-left: 500px solid #ffffff;
+	border-right: 500px solid #ffffff;
+	align-items: center;
+	position: absolute;
+	left: 110px;
+	top: 20px;
+	z-index: -12;
+	margin-top: 100px;
 }
 
 form {
-  width: 100%;
-  text-align: center;
+	width: 100%;
+	text-align: center;
 }
 
- .btn-primary {
-  position: relative;
-  align-items: center;
-  z-index: 1;
-  /*margin-left: 525px;
+.btn-primary {
+	position: relative;
+	align-items: center;
+	z-index: 1;
+	/*margin-left: 525px;
   margin-top: -20px;*/
-  background-color: black;
-  border-color: white;
-  text-transform: uppercase;
-  color: #bbb308;
-  font-weight: bold;
+	background-color: black;
+	border-color: white;
+	text-transform: uppercase;
+	color: #bbb308;
+	font-weight: bold;
 }
 
 .btn-primary:hover {
-  background-color: #949494;
-  border-color: inherit;
+	background-color: #949494;
+	border-color: inherit;
 }
 
 .col-md-20 {
-   position: relative;
-   display: inline-block;
-   min-height: 1px;
-   height: 60px;
-   width: 200px;
-   background-color: #949494;
-   margin: 5px;
-   text-align: center;
-   text: #ffffff;
-   text-transform: capitalize;
-   font-weight: bold;
-   margin-left: 22px;
-   font-size: 20px;
-   font-family: 'Righteous', cursive;
-   letter-spacing: .05em;
+	position: relative;
+	display: inline-block;
+	min-height: 1px;
+	height: 60px;
+	width: 200px;
+	background-color: #949494;
+	margin: 5px;
+	text-align: center;
+	/*text: #ffffff;*/
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-left: 22px;
+	font-size: 20px;
+	font-family: 'Righteous', cursive;
+	letter-spacing: .05em;
 }
 
 .categories .btn, .categories .btn:hover {
-    color: #000000;
-    text-transform: uppercase;
-    background-color: white;
-    font-size: 15px;
-    padding-top: 17px;
-    font-family: 'Righteous', cursive;
-
+	color: #000000;
+	text-transform: uppercase;
+	background-color: white;
+	font-size: 15px;
+	padding-top: 17px;
+	font-family: 'Righteous', cursive;
 }
+
 .tiles button:hover {
-    background-color: #ffffff;
-
+	background-color: #ffffff;
 }
+
 .ticker {
-    z-index: 5;
-    position: relative;
-    text-align: center;
-    font-family: scoreboard;
-    font-size: 100px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #bbb308;
-    padding-top: 10px;
+	z-index: 5;
+	position: relative;
+	text-align: center;
+	font-family: scoreboard;
+	font-size: 100px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #bbb308;
+	padding-top: 10px;
 }
 
 .categories {
-  /*position: relative;*/
-  display: inline;
-  min-height: 1px;
-  height: 60px;
-  width: 200px;
-  /*background-color: #949494;*/
-  margin: 5px;
-  text-align: center;
-  text: #ffffff;
-  text-transform: capitalize;
-  font-weight: bold;
-  margin-left: 0px;
+	/*position: relative;*/
+	display: inline;
+	min-height: 1px;
+	height: 60px;
+	width: 200px;
+	/*background-color: #949494;*/
+	margin: 5px;
+	text-align: center;
+	/*text: #ffffff;*/
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-left: 0px;
 }
+
 footer {
-  text-align: center;
-  font-family: sans-serif;
-  color: black;
-  font-weight: bold;
+	text-align: center;
+	font-family: sans-serif;
+	color: black;
+	font-weight: bold;
 }
