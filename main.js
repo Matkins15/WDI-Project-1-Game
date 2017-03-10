@@ -215,10 +215,11 @@ $('.tiles').on('click', "#oneRthree", function($event) {
 		score -= parseInt(100);
 		alert("Sorry, that's incorrect");
 	}
-	$('#oneRthree').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#oneRthree').prop("disabled", true);
+		$('#oneRthree').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -233,10 +234,11 @@ $('.tiles').on('click', "#twoRthree", function($event) {
 		score -= parseInt(200);
 		alert("Sorry, that's incorrect");
 	}
-	$('#twoRthree').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#twoRthree').prop("disabled", true);
+		$('#twoRthree').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -251,10 +253,11 @@ $('.tiles').on('click', "#threeRthree", function($event) {
 		score -= parseInt(300);
 		alert("Sorry, that's incorrect");
 	}
-	$('#threeRthree').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#threeRthree').prop("disabled", true);
+		$('#threeRthree').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -269,10 +272,11 @@ $('.tiles').on('click', "#fourRthree", function($event) {
 		score -= parseInt(400);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fourRthree').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fourRthree').prop("disabled", true);
+		$('#fourRthree').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -287,10 +291,11 @@ $('.tiles').on('click', "#fiveRthree", function($event) {
 		score -= parseInt(500);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fiveRthree').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fiveRthree').prop("disabled", true);
+		$('#fiveRthree').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -305,10 +310,11 @@ $('.tiles').on('click', "#oneRfour", function($event) {
 		score -= parseInt(100);
 		alert("Sorry, that's incorrect");
 	}
-	$('#oneRfour').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#oneRfour').prop("disabled", true);
+		$('#oneRfour').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -323,10 +329,11 @@ $('.tiles').on('click', "#twoRfour", function($event) {
 		score -= parseInt(200);
 		alert("Sorry, that's incorrect");
 	}
-	$('#twoRfour').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#twoRfour').prop("disabled", true);
+		$('#twoRfour').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -341,10 +348,11 @@ $('.tiles').on('click', "#threeRfour", function($event) {
 		score -= parseInt(300);
 		alert("Sorry, that's incorrect");
 	}
-	$('#threeRfour').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#threeRfour').prop("disabled", true);
+		$('#threeRfour').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -359,10 +367,11 @@ $('.tiles').on('click', "#fourRfour", function($event) {
 		score -= parseInt(400);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fourRfour').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fourRfour').prop("disabled", true);
+		$('#fourRfour').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -377,10 +386,11 @@ $('.tiles').on('click', "#fiveRfour", function($event) {
 		score -= parseInt(500);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fiveRfour').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fiveRfour').prop("disabled", true);
+		$('#fiveRfour').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -395,10 +405,11 @@ $('.tiles').on('click', "#oneRfive", function($event) {
 		score -= parseInt(100);
 		alert("Sorry, that's incorrect");
 	}
-	$('#oneRfive').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#oneRfive').prop("disabled", true);
+		$('#oneRfive').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -413,10 +424,11 @@ $('.tiles').on('click', "#twoRfive", function($event) {
 		score -= parseInt(200);
 		alert("Sorry, that's incorrect");
 	}
-	$('#twoRfive').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#twoRfive').prop("disabled", true);
+		$('#twoRfive').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -431,10 +443,11 @@ $('.tiles').on('click', "#threeRfive", function($event) {
 		score -= parseInt(300);
 		alert("Sorry, that's incorrect");
 	}
-	$('#threeRfive').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#threeRfive').prop("disabled", true);
+		$('#threeRfive').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -449,10 +462,11 @@ $('.tiles').on('click', "#fourRfive", function($event) {
 		score -= parseInt(400);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fourRfive').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fourRfive').prop("disabled", true);
+		$('#fourRfive').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -467,9 +481,10 @@ $('.tiles').on('click', "#fiveRfive", function($event) {
 		score -= parseInt(500);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fiveRfive').on('click', function() {
-		$(this).prop("disabled", true);
-    $(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fiveRfive').prop("disabled", true);
+		$('#fiveRfive').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
