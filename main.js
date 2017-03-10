@@ -28,7 +28,8 @@ $('.tiles').on('click', "#oneRone", function($event) {
 		$('#oneRone').css("background-color", "black");
 	};
 	deez();
-  // updaing score
+
+	// updaing score
 	refreshScore();
 });
 
