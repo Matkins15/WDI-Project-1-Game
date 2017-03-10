@@ -23,7 +23,7 @@ Jeopardy - the classic quiz game show with an old school feel. This single playe
 * Trello
 
 ## Future Developments
-* add the a second player and an additional score board
-* replace alert pop up with custom modal with radio buttons
-* add funtion that will disable a button immediately after score updates
-* add a jingle and game show sounds  
+* Add a second player function with corresponding score board
+* Replace alert pop up with custom modal with radio buttons
+* Add funtion that will disable a button immediately after score updates
+* Add a jingle and game show sounds  
