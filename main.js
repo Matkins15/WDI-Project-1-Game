@@ -23,10 +23,11 @@ $('.tiles').on('click', "#oneRone", function($event) {
 		alert("Sorry, that's incorrect");
 	}
   // disabling button
-	$('#oneRone').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#oneRone').prop("disabled", true);
+		$('#oneRone').css("background-color", "black");
+	};
+	deez();
   // updaing score
 	refreshScore();
 });
@@ -42,10 +43,11 @@ $('.tiles').on('click', "#twoRone", function($event) {
 		score -= parseInt(200);
 		alert("Sorry, that's incorrect");
 	}
-	$('#twoRone').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#twoRone').prop("disabled", true);
+		$('#twoRone').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -60,10 +62,11 @@ $('.tiles').on('click', "#threeRone", function($event) {
 		score -= parseInt(300);
 		alert("Sorry, that's incorrect");
 	}
-	$('#threeRone').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#threeRone').prop("disabled", true);
+		$('#threeRone').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -78,10 +81,11 @@ $('.tiles').on('click', "#fourRone", function($event) {
 		score -= parseInt(400);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fourRone').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fourRone').prop("disabled", true);
+		$('#fourRone').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -96,10 +100,11 @@ $('.tiles').on('click', "#fiveRone", function($event) {
 		score -= parseInt(500);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fiveRone').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fiveRone').prop("disabled", true);
+		$('#fiveRone').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -114,10 +119,11 @@ $('.tiles').on('click', "#oneRtwo", function($event) {
 		score -= parseInt(100);
 		alert("Sorry, that's incorrect");
 	}
-	$('#oneRtwo').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#oneRtwo').prop("disabled", true);
+		$('#oneRtwo').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -132,10 +138,11 @@ $('.tiles').on('click', "#twoRtwo", function($event) {
 		score -= parseInt(200);
 		alert("Sorry, that's incorrect");
 	}
-	$('#twoRtwo').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#twoRtwo').prop("disabled", true);
+		$('#twoRtwo').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -151,10 +158,11 @@ $('.tiles').on('click', "#threeRtwo", function($event) {
 		score -= parseInt(300);
 		alert("Sorry, that's incorrect");
 	}
-	$('#threeRtwo').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#threeRtwo').prop("disabled", true);
+		$('#threeRtwo').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -169,10 +177,11 @@ $('.tiles').on('click', "#fourRtwo", function($event) {
 		score -= parseInt(400);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fourRtwo').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fourRtwo').prop("disabled", true);
+		$('#fourRtwo').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
@@ -187,10 +196,11 @@ $('.tiles').on('click', "#fiveRtwo", function($event) {
 		score -= parseInt(500);
 		alert("Sorry, that's incorrect");
 	}
-	$('#fiveRtwo').on('click', function() {
-		$(this).prop("disabled", true);
-		$(this).css("background-color", "black");
-	});
+	function deez() {
+		$('#fiveRtwo').prop("disabled", true);
+		$('#fiveRtwo').css("background-color", "black");
+	};
+	deez();
 	refreshScore();
 });
 
