@@ -37,7 +37,7 @@ form {
 	text-align: center;
 }
 
-.btn-primary {
+.btn-default {
 	position: relative;
 	align-items: center;
 	z-index: 1;
@@ -50,9 +50,17 @@ form {
 	font-weight: bold;
 }
 
-.btn-primary:hover {
+.btn-default:hover {
 	background-color: #949494;
 	border-color: inherit;
+}
+
+.btn-default:target {
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
 }
 
 .col-md-20 {

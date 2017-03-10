@@ -29,7 +29,7 @@ $('.tiles').on('click', "#oneRone", function($event) {
 	};
 	deez();
 
-	// updaing score
+	 // updaing score
 	refreshScore();
 });
 
